@@ -4,6 +4,8 @@ import java.awt.*;
 import java.io.Serializable;
 
 public class Cursor implements Serializable {
+
+
     private final String owner;
     private final int x,y;
     private final boolean enabled;
